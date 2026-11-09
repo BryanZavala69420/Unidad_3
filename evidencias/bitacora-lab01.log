@@ -1,0 +1,118 @@
+2026-10-18 19:01:35.470 MST [1454] LOG:  iniciando PostgreSQL 18.6 on x86_64-redhat-linux-gnu, compiled by gcc (GCC) 16.1.1 20260515 (Red Hat 16.1.1-2), 64-bit
+2026-10-18 19:01:35.470 MST [1454] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2026-10-18 19:01:35.470 MST [1454] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2026-10-18 19:01:35.472 MST [1454] LOG:  escuchando en el socket Unix «/var/run/postgresql/.s.PGSQL.5432»
+2026-10-18 19:01:35.472 MST [1454] LOG:  escuchando en el socket Unix «/tmp/.s.PGSQL.5432»
+2026-10-18 19:01:35.478 MST [1481] LOG:  el sistema de bases de datos fue apagado en 2026-10-16 17:13:46 MST
+2026-10-18 19:01:35.482 MST [1454] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2026-10-18 19:06:35.541 MST [1479] LOG:  empezando checkpoint: time
+2026-10-18 19:06:35.550 MST [1479] LOG:  checkpoint completo: escritos 0 búfers (0.0%); escritos 3 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.002 s, total=0.010 s; archivos sincronizados=2, más largo=0.001 s, promedio=0.001 s; distancia=0 kB, estimación=0 kB; lsn=0/1819BE8, lsn de redo=0/1819B90
+2026-10-18 20:09:13.644 MST [1454] LOG:  se recibió petición de apagado rápido
+2026-10-18 20:09:13.649 MST [1454] LOG:  abortando transacciones activas
+2026-10-18 20:09:13.651 MST [1454] LOG:  proceso ayudante «logical replication launcher» (PID 1489) terminó con código de salida 1
+2026-10-18 20:09:13.651 MST [1479] LOG:  apagando
+2026-10-18 20:09:13.652 MST [1479] LOG:  empezando checkpoint: shutdown immediate
+2026-10-18 20:09:13.656 MST [1479] LOG:  checkpoint completo: escritos 0 búfers (0.0%); escritos 0 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.001 s, total=0.005 s; archivos sincronizados=0, más largo=0.000 s, promedio=0.000 s; distancia=0 kB, estimación=0 kB; lsn=0/1819C98, lsn de redo=0/1819C98
+2026-10-18 20:09:13.664 MST [1454] LOG:  el sistema de bases de datos está apagado
+2026-10-25 18:01:35.261 MST [1439] LOG:  iniciando PostgreSQL 18.6 on x86_64-redhat-linux-gnu, compiled by gcc (GCC) 16.1.1 20260515 (Red Hat 16.1.1-2), 64-bit
+2026-10-25 18:01:35.261 MST [1439] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2026-10-25 18:01:35.261 MST [1439] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2026-10-25 18:01:35.262 MST [1439] LOG:  escuchando en el socket Unix «/var/run/postgresql/.s.PGSQL.5432»
+2026-10-25 18:01:35.263 MST [1439] LOG:  escuchando en el socket Unix «/tmp/.s.PGSQL.5432»
+2026-10-25 18:01:35.269 MST [1459] LOG:  el sistema de bases de datos fue apagado en 2026-10-24 23:15:09 MST
+2026-10-25 18:01:35.273 MST [1439] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2026-10-25 18:06:35.369 MST [1457] LOG:  empezando checkpoint: time
+2026-10-25 18:06:35.378 MST [1457] LOG:  checkpoint completo: escritos 0 búfers (0.0%); escritos 3 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.002 s, total=0.010 s; archivos sincronizados=2, más largo=0.001 s, promedio=0.001 s; distancia=0 kB, estimación=0 kB; lsn=0/181A358, lsn de redo=0/181A300
+2026-10-25 19:33:39.935 MST [1439] LOG:  se recibió petición de apagado rápido
+2026-10-25 19:33:39.935 MST [1439] LOG:  abortando transacciones activas
+2026-10-25 19:33:39.937 MST [1439] LOG:  proceso ayudante «logical replication launcher» (PID 1462) terminó con código de salida 1
+2026-10-25 19:33:39.937 MST [1457] LOG:  apagando
+2026-10-25 19:33:39.938 MST [1457] LOG:  empezando checkpoint: shutdown immediate
+2026-10-25 19:33:39.942 MST [1457] LOG:  checkpoint completo: escritos 0 búfers (0.0%); escritos 0 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.001 s, sync=0.001 s, total=0.005 s; archivos sincronizados=0, más largo=0.000 s, promedio=0.000 s; distancia=0 kB, estimación=0 kB; lsn=0/181A408, lsn de redo=0/181A408
+2026-10-25 19:33:39.951 MST [1439] LOG:  el sistema de bases de datos está apagado
+2026-11-08 17:46:07.364 MST [1306] user= db= app= client= LOG:  iniciando PostgreSQL 18.6 on x86_64-redhat-linux-gnu, compiled by gcc (GCC) 16.1.1 20260515 (Red Hat 16.1.1-2), 64-bit
+2026-11-08 17:46:07.365 MST [1306] user= db= app= client= LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2026-11-08 17:46:07.365 MST [1306] user= db= app= client= LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2026-11-08 17:46:07.367 MST [1306] user= db= app= client= LOG:  escuchando en el socket Unix «/var/run/postgresql/.s.PGSQL.5432»
+2026-11-08 17:46:07.369 MST [1306] user= db= app= client= LOG:  escuchando en el socket Unix «/tmp/.s.PGSQL.5432»
+2026-11-08 17:46:07.380 MST [1331] user= db= app= client= LOG:  el sistema de bases de datos fue apagado en 2026-11-06 15:06:22 MST
+2026-11-08 17:46:07.390 MST [1306] user= db= app= client= LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2026-11-08 17:48:25.963 MST [5289] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 17:48:25.966 MST [5289] user=postgres db=postgres app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«postgres» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 17:48:25.966 MST [5289] user=postgres db=postgres app=[desconocido] client=[local] LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=psql
+2026-11-08 17:48:31.636 MST [5298] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 17:48:31.637 MST [5298] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«postgres» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 17:48:31.637 MST [5298] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autorizada: usuario=postgres base_de_datos=db_20406894_bryan_zavala nombre_de_aplicación=psql
+2026-11-08 17:48:31.640 MST [5289] user=postgres db=postgres app=psql client=[local] LOG:  desconexión: duración de sesión: 0:00:05.677 usuario=postgres base=postgres host=[local]
+2026-11-08 17:48:42.718 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] ERROR:  error de sintaxis en o cerca de «ls» en carácter 1
+2026-11-08 17:48:42.718 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] SENTENCIA:  ls
+	SHOW TABLES;
+2026-11-08 17:48:44.236 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] ERROR:  error de sintaxis en o cerca de «ls» en carácter 1
+2026-11-08 17:48:44.236 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] SENTENCIA:  ls
+	SHOW TABLES;
+2026-11-08 17:48:50.883 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] ERROR:  parámetro de configuración «tables» no reconocido
+2026-11-08 17:48:50.883 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] SENTENCIA:  SHOW TABLES;
+2026-11-08 17:48:53.327 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] ERROR:  error de sintaxis en o cerca de «TABLE» en carácter 6
+2026-11-08 17:48:53.327 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] SENTENCIA:  SHOW TABLE;
+2026-11-08 17:49:04.826 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] LOG:  sentencia: INSERT INTO clientes (nombre, correo, rfc, edad, ciudad, codigo_postal)
+	VALUES ('Pedro Ruiz', 'pedro.ruiz@example.test', 'RUPE950101AAA', 30, 'Guasave', '81000');
+2026-11-08 17:49:04.835 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] LOG:  sentencia: DELETE FROM clientes WHERE nombre = 'Pedro Ruiz';
+2026-11-08 17:51:07.478 MST [1329] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-08 17:51:07.902 MST [1329] user= db= app= client= LOG:  checkpoint completo: escritos 4 búfers (0.0%); escritos 3 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.404 s, sync=0.009 s, total=0.425 s; archivos sincronizados=6, más largo=0.005 s, promedio=0.002 s; distancia=10 kB, estimación=10 kB; lsn=0/1D3AED0, lsn de redo=0/1D3AE78
+2026-11-08 17:52:51.024 MST [5650] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=47234
+2026-11-08 17:52:51.037 MST [5650] user=app_ventas db=comercial app=[desconocido] client=127.0.0.1 LOG:  conexión autenticada: identidad=«app_ventas» método=scram-sha-256 (/var/lib/pgsql/data/pg_hba.conf:115)
+2026-11-08 17:52:51.038 MST [5650] user=app_ventas db=comercial app=[desconocido] client=127.0.0.1 LOG:  conexión autorizada: usuario=app_ventas base_de_datos=comercial nombre_de_aplicación=app-ventas-web
+2026-11-08 17:52:51.038 MST [5650] user=app_ventas db=comercial app=[desconocido] client=127.0.0.1 FATAL:  no existe la base de datos «comercial»
+2026-11-08 17:53:07.701 MST [5659] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=44284
+2026-11-08 17:53:07.713 MST [5659] user=app_ventas db=db_20406894 app=[desconocido] client=127.0.0.1 LOG:  conexión autenticada: identidad=«app_ventas» método=scram-sha-256 (/var/lib/pgsql/data/pg_hba.conf:115)
+2026-11-08 17:53:07.714 MST [5659] user=app_ventas db=db_20406894 app=[desconocido] client=127.0.0.1 LOG:  conexión autorizada: usuario=app_ventas base_de_datos=db_20406894 nombre_de_aplicación=app-ventas-web
+2026-11-08 17:53:07.714 MST [5659] user=app_ventas db=db_20406894 app=[desconocido] client=127.0.0.1 FATAL:  no existe la base de datos «db_20406894»
+2026-11-08 17:53:29.913 MST [5674] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=35382
+2026-11-08 17:53:29.925 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=[desconocido] client=127.0.0.1 LOG:  conexión autenticada: identidad=«app_ventas» método=scram-sha-256 (/var/lib/pgsql/data/pg_hba.conf:115)
+2026-11-08 17:53:29.925 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=[desconocido] client=127.0.0.1 LOG:  conexión autorizada: usuario=app_ventas base_de_datos=db_20406894_bryan_zavala nombre_de_aplicación=app-ventas-web
+2026-11-08 17:53:29.928 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 LOG:  sentencia: DELETE FROM auditoria.cambios_clientes
+2026-11-08 17:53:29.932 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 ERROR:  permiso denegado al esquema auditoria en carácter 13
+2026-11-08 17:53:29.932 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 SENTENCIA:  DELETE FROM auditoria.cambios_clientes
+2026-11-08 17:53:29.933 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 LOG:  sentencia: ALTER TABLE clientes DISABLE TRIGGER trg_auditoria_clientes
+2026-11-08 17:53:29.934 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 ERROR:  debe ser dueño de la tabla clientes
+2026-11-08 17:53:29.934 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 SENTENCIA:  ALTER TABLE clientes DISABLE TRIGGER trg_auditoria_clientes
+2026-11-08 17:53:29.934 MST [5674] user=app_ventas db=db_20406894_bryan_zavala app=app-ventas-web client=127.0.0.1 LOG:  desconexión: duración de sesión: 0:00:00.022 usuario=app_ventas base=db_20406894_bryan_zavala host=127.0.0.1 port=35382
+2026-11-08 18:02:48.379 MST [6000] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=57660
+2026-11-08 18:02:48.392 MST [6000] user=soporte_ana db=db_20406894_bryan_zavala app=[desconocido] client=127.0.0.1 LOG:  conexión autenticada: identidad=«soporte_ana» método=scram-sha-256 (/var/lib/pgsql/data/pg_hba.conf:115)
+2026-11-08 18:02:48.392 MST [6000] user=soporte_ana db=db_20406894_bryan_zavala app=[desconocido] client=127.0.0.1 LOG:  conexión autorizada: usuario=soporte_ana base_de_datos=db_20406894_bryan_zavala nombre_de_aplicación=psql
+2026-11-08 18:02:48.397 MST [6000] user=soporte_ana db=db_20406894_bryan_zavala app=psql client=127.0.0.1 LOG:  desconexión: duración de sesión: 0:00:00.018 usuario=soporte_ana base=db_20406894_bryan_zavala host=127.0.0.1 port=57660
+2026-11-08 18:02:55.639 MST [5298] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] LOG:  sentencia: UPDATE clientes SET segmento = 'regular';
+2026-11-08 18:06:08.126 MST [1329] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-08 18:06:08.249 MST [1329] user= db= app= client= LOG:  checkpoint completo: escritos 1 búfers (0.0%); escritos 1 búfers SLRU; 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.101 s, sync=0.013 s, total=0.123 s; archivos sincronizados=2, más largo=0.012 s, promedio=0.007 s; distancia=1 kB, estimación=9 kB; lsn=0/1D3B6B8, lsn de redo=0/1D3B660
+2026-11-08 18:06:44.419 MST [6076] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:06:44.421 MST [6076] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«bryan» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:06:44.421 MST [6076] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  el nombre de usuario entregado (postgres) y el nombre de usuario autentificado (bryan) no coinciden
+2026-11-08 18:06:44.421 MST [6076] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] FATAL:  la autentificación Peer falló para el usuario «postgres»
+2026-11-08 18:06:44.421 MST [6076] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] DETALLE:  La conexión coincidió con el archivo «/var/lib/pgsql/data/pg_hba.conf» línea 113: «local   all             all                                     peer»
+2026-11-08 18:07:48.085 MST [6208] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:07:48.087 MST [6208] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«root» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:07:48.087 MST [6208] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  el nombre de usuario entregado (postgres) y el nombre de usuario autentificado (root) no coinciden
+2026-11-08 18:07:48.087 MST [6208] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] FATAL:  la autentificación Peer falló para el usuario «postgres»
+2026-11-08 18:07:48.087 MST [6208] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] DETALLE:  La conexión coincidió con el archivo «/var/lib/pgsql/data/pg_hba.conf» línea 113: «local   all             all                                     peer»
+2026-11-08 18:07:56.573 MST [6227] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:07:56.575 MST [6227] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«root» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:07:56.575 MST [6227] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  el nombre de usuario entregado (postgres) y el nombre de usuario autentificado (root) no coinciden
+2026-11-08 18:07:56.575 MST [6227] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] FATAL:  la autentificación Peer falló para el usuario «postgres»
+2026-11-08 18:07:56.575 MST [6227] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] DETALLE:  La conexión coincidió con el archivo «/var/lib/pgsql/data/pg_hba.conf» línea 113: «local   all             all                                     peer»
+2026-11-08 18:10:21.341 MST [6348] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:10:21.343 MST [6348] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«root» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:10:21.343 MST [6348] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  el nombre de usuario entregado (postgres) y el nombre de usuario autentificado (root) no coinciden
+2026-11-08 18:10:21.344 MST [6348] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] FATAL:  la autentificación Peer falló para el usuario «postgres»
+2026-11-08 18:10:21.344 MST [6348] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] DETALLE:  La conexión coincidió con el archivo «/var/lib/pgsql/data/pg_hba.conf» línea 113: «local   all             all                                     peer»
+2026-11-08 18:11:19.351 MST [6400] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:11:19.353 MST [6400] user=postgres db=comercial app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«postgres» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:11:19.353 MST [6400] user=postgres db=comercial app=[desconocido] client=[local] LOG:  conexión autorizada: usuario=postgres base_de_datos=comercial nombre_de_aplicación=psql
+2026-11-08 18:11:19.353 MST [6400] user=postgres db=comercial app=[desconocido] client=[local] FATAL:  no existe la base de datos «comercial»
+2026-11-08 18:11:41.347 MST [6414] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:11:41.348 MST [6414] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«postgres» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:11:41.349 MST [6414] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autorizada: usuario=postgres base_de_datos=db_20406894_bryan_zavala nombre_de_aplicación=psql
+2026-11-08 18:11:41.358 MST [6414] user=postgres db=db_20406894_bryan_zavala app=psql client=[local] LOG:  desconexión: duración de sesión: 0:00:00.011 usuario=postgres base=db_20406894_bryan_zavala host=[local]
+2026-11-08 18:12:10.873 MST [6527] user=[desconocido] db=[desconocido] app=[desconocido] client=[local] LOG:  conexión recibida: host=[local]
+2026-11-08 18:12:10.875 MST [6527] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autenticada: identidad=«postgres» método=peer (/var/lib/pgsql/data/pg_hba.conf:113)
+2026-11-08 18:12:10.875 MST [6527] user=postgres db=db_20406894_bryan_zavala app=[desconocido] client=[local] LOG:  conexión autorizada: usuario=postgres base_de_datos=db_20406894_bryan_zavala nombre_de_aplicación=psql
+
